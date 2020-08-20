@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/test-funbox/static/css/main.1627f08f.chunk.css",
+    "main.js": "/test-funbox/static/js/main.681a9503.chunk.js",
+    "main.js.map": "/test-funbox/static/js/main.681a9503.chunk.js.map",
+    "runtime-main.js": "/test-funbox/static/js/runtime-main.200e4444.js",
+    "runtime-main.js.map": "/test-funbox/static/js/runtime-main.200e4444.js.map",
+    "static/js/2.83e3f815.chunk.js": "/test-funbox/static/js/2.83e3f815.chunk.js",
+    "static/js/2.83e3f815.chunk.js.map": "/test-funbox/static/js/2.83e3f815.chunk.js.map",
+    "index.html": "/test-funbox/index.html",
+    "precache-manifest.78fd338ae617b9a675babe2db991786f.js": "/test-funbox/precache-manifest.78fd338ae617b9a675babe2db991786f.js",
+    "service-worker.js": "/test-funbox/service-worker.js",
+    "static/css/main.1627f08f.chunk.css.map": "/test-funbox/static/css/main.1627f08f.chunk.css.map",
+    "static/js/2.83e3f815.chunk.js.LICENSE.txt": "/test-funbox/static/js/2.83e3f815.chunk.js.LICENSE.txt",
+    "static/media/common.module.css": "/test-funbox/static/media/background.1717a88a.png",
+    "static/media/cat.png": "/test-funbox/static/media/cat.a3250c59.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.200e4444.js",
+    "static/js/2.83e3f815.chunk.js",
+    "static/css/main.1627f08f.chunk.css",
+    "static/js/main.681a9503.chunk.js"
+  ]
+}
