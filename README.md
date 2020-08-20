@@ -1,44 +1,60 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Теоритическая часть на вакансию младший фронтенд-разработчик FunBox
+Q:Расскажите, чем, на ваш взгляд, отличается хорошая верстка от плохой с точки
+зрения  
+-пользователя;  
+-менеджера проекта;  
+-дизайнера;  
+-верстальщика;  
+-клиентского программиста;  
+-серверного программиста.  
+A: пользователя - красивый дизайн, все выглядит хорошо как на компьютере, так и на мобильном  
+менеджера проекта - сданная в срок  
+дизайнера - максимально похожа на макет  
+верстальщика - ту, что не нужно подгонять под каждое устройство
+клиентского программиста - где меньше динамики
+серверного программиста - чем меньше файл со стилями, тем лучше  
 
-## Available Scripts
+Q: Опишите основные особенности верстки крупных многостраничных сайтов,
+   дизайн которых может меняться в процессе реализации и поддержки.  
+A: Пожалуй главная особенность в том, что стили пишуться максимально переиспользуемыми, иначе смена, условно, цвета кнопки потребует огромных затрат ( в 100 местах поменять цвет)
+Также придерживаясь этой концепции файл со стилями меньше весит, следовательно наше приложение грузиться несколько быстрее + расходуется меньше трафика  
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Q: Опишите основные особенности верстки сайтов, которые должны одинаково
+   хорошо отображаться как на любом современном компьютере, так и на
+   смартфонах и планшетах под управлением iOS и Android. Расскажите о своем
+   опыте верстки подобных сайтов: какие инструменты и технологии вы применяли,
+   как проверяли результат на различных устройствах, какие именно устройства
+   требовалось поддерживать.  
+   A: Особенность в том, что при построении размеров блоков\кнопок и прочего нам нужно использовать приемущественно относительные стили, которые опираются на разрешение экрана  
+   
+Q: Расскажите, какие инструменты помогают вам экономить время в процессе
+   написания, проверки и отладки кода.  
+   A: unit-тесты и debugger  
+   
+   Q:Вам нужно понять, почему страница отображается некорректно в Safari на iOS и в
+     IE на Windows. Код писали не вы, доступа к исходникам у вас нет. Ваши действия?
+     Сталкивались ли вы с подобными проблемами на практике?  
+     A: Не сталкивался. Однако думаю я полезу в консоль разработчика и найду там элемент, что неправильно отображается и посмотрю там его стили  
+     
+  Q: Дизайнер отдал вам макет, в котором не показано, как должны выглядеть
+     интерактивные элементы при наведении мыши. Ваши действия?
+     A: Уточню у него данный момент. Если уточнить по какой то причине не удалось, то сделаю обычный hover который делает цвет элемента немного прозрачным  
+     Q: Какие ресурсы вы используете для развития в профессиональной сфере? Приведите
+        несколько конкретных примеров (сайты, блоги и так далее).
+        Какое направление развития вам более близко: JS-программирование, HTML/CSS-
+        верстка или и то, и другое?
+        Какие ещё области знаний, кроме тех, что непосредственно относятся к работе,
+        вам интересны?  
+        A: Использую наверное все - книги, ютуб, статьи и тд, в частности из ютуб каналов в основном смотрю канал it-kamasutra и Владиллена Милена.  
+        Наиболее близко мне JS программирование и серверная разработка(мало опыта), но также хочу научиться круто верстать и возможно опробовать себя в машинном обучении.  
+        В общем что касается программирования мне хотелось бы уметь все:)  
+        Из других областей мне интересно ходить в зал, вскоре планирую заняться изучением финансовых рынков и в целом экономики и научиться играть на муз инструменте.  
+        Q: Расскажите нам о себе и предоставьте несколько ссылок на последние работы,
+           выполненные вами.
+           A: Зовут Кириллом, 22 годика. Месяц назад окончил университет МАДИ(экономист), программированием занимаюсь почти год, большую часть этого времени я уделял изучению JS и React, верстка у меня шла, наверное, 3им делом(по тестовому вы догадаетесь:)
+           Но в последнее время этот пробел я устраняю(Я очень быстро учусь, я это умею и я это люблю). Также владею тайпскриптом, умею работать с данными с сервера, могу написать свой простой сервер по rest api. В основном пишу на React, придерживаясь FLUX круговороту. На данный момент читаю книгу про паттерны.
+           Вот небольшая соц сеть - https://github.com/SilentDubich/myrea (для корректной работы нужно зарегистрироваться тут https://social-network.samuraijs.com/login либо по просьбе могу свой логин дать)    
+           Телеграм бот простой с использованием mongoDB - https://github.com/SilentDubich/telegramBot  
+           Игра морской-бой - https://github.com/SilentDubich/seaBattle
+           Одно из тестовых, где я реализовал небольшой форум с написанием сервера - https://github.com/SilentDubich/tot-system-test
+         

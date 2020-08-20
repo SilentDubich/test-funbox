@@ -87,7 +87,6 @@ export const Card: FC<PropsType> = (props) => {
                           onMouseOver={overMouse}
                           onClick={setSelect} className={SCommon.footer_textBuy__decor}> {availableDescr[availableDescr.length - 1]}</span>
                 </div> : <div className={SCommon.footer_textOutOff__decor}><span>{props.card.data.descriptions.outOff.footer}</span></div>}
-
         </div>
     )
 }
