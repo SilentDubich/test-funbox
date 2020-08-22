@@ -334,6 +334,35 @@ html {
     .container_weight_unit__font {
         font-size: .5rem;
     }
+
+    .footer_textDef__decor {
+        font-size: .75rem;
+        color: #ffffff;
+        font-family: "Trebuchet MS", Arial, sans-serif;
+    }
+
+    .footer_textDef__center {
+        text-align: center;
+    }
+
+    .footer_textBuy__decor {
+        font-size: .75rem;
+        color: #1698d9;
+        border-bottom: .1rem #1698d9 dashed;
+        font-family: "Trebuchet MS", Arial, sans-serif;
+        cursor: pointer;
+    }
+    .footer_textOutOff__decor {
+        font-size: .75rem;
+        color: #d1d152;
+        text-align: center;
+    }
+    .footer_textSelected__decor {
+        font-size: .75rem;
+        color: #ffffff;
+        text-align: center;
+        font-family: "Trebuchet MS", Arial, sans-serif;
+    }
 }
 
 
